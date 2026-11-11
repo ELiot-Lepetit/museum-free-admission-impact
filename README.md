@@ -16,6 +16,22 @@ group. Sociodemographic factors — CSP, education level, agglomeration
 type — are the dominant drivers of attendance.
 
 ---
+## Repository Structure
+```text
+├── Scripts/
+│   ├── Clean_1973.do      # Data cleaning - 1973 survey
+│   ├── Clean_1981.do      # Data cleaning - 1981 survey
+│   ├── Clean_1997.do      # Data cleaning - 1997 survey
+│   ├── Clean_2008.do      # Data cleaning - 2008 survey
+│   ├── Clean_2018.do      # Data cleaning - 2018 survey
+│   └── analysis_main.do   # Main Difference-in-Differences regressions & figures
+├── Outputs/
+│   ├── parallel_trends.pdf  # Parallel trends test plots
+│   └── *_distribution.pdf   # Distribution and impact outputs
+├── Memoire_Lepetit_Eliot.pdf # Full research paper 
+└── README.md
+```
+---
 
 ## Methodology
 
