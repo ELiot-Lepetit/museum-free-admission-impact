@@ -1,0 +1,10 @@
+# Stata generated files
+*.dta
+*.log
+*.smcl
+*.stpr
+*.stsem
+
+# Temp files
+~$*
+.DS_Store
